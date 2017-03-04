@@ -1,0 +1,201 @@
+#app, .app {
+padding:0;
+
+}
+.grid {
+  border:{1px solid grey};
+}
+
+.margin-bottom {
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.brand {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.brand-title {
+  font-size: 50px;
+}
+
+.nav-bar {
+  position: fixed;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.nav-element {
+  display: flex;
+  height: 70%;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+/*.nav-element li {
+  transform: rotate(-90deg);
+  padding-left: 30px;
+  font-weight: bold;
+  color: grey;
+  list-style: none;
+}*/
+.img {
+  height: 300px;
+
+
+}
+
+.image-wrapper {
+  height:300px;
+  display: flex;
+  align-items: flex-end;
+
+  padding:0;
+  background-size: cover;
+  background-position: center;
+
+}
+
+input, textarea {
+  opacity: 0.7;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.image-hover {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255,255,51,0.8);
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px #000000;
+}
+
+.image-hover p {
+  color: black;
+  text-shadow: 0px 0px #000000;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+.yellow {
+  background-color: #FFEB3B;
+  padding: 30px;
+}
+
+.summary {
+  font-size: 20px;
+}
+
+.border {
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.info img{
+  width: 80%;
+}
+
+.details {
+  position: fixed;
+}
+
+.footer {
+  background-image: url('http://i.imgur.com/nFwxp4k.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  color: white;
+}
+
+.footer-img {
+  margin: 20px 0;
+}
+.technologies p {
+  margin: 0;
+}
+
+.grey {
+  background-color: rgba(236, 240, 241,0.5);
+}
+
+.tech {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .details {
+    position:static;
+  }
+
+
+
+  .small-grey {
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .brand {
+    display:none;
+  }
+
+  .hide-sm {
+    display:none;
+  }
+
+  .nav-bar {
+    position: static;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .yellow {
+    padding: 10px;
+  }
+
+  .details {
+    position:static;
+  }
+
+  .image {
+    display:none;
+  }
+}
