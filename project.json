@@ -1,0 +1,51 @@
+[
+  { "name": "The Exploding Kitten",
+    "repoName": "https://github.com/yisheng90/GA-Project-1-The-Exploding-Kitten-",
+    "deployedUrl": "https://yisheng90.github.io/GA-Project-1-The-Exploding-Kitten-/",
+    "previewImage": "http://i.giphy.com/7VIrrel4MWJGM.gif",
+    "scope": "Create an online version of card game 'Exploding Kitten'. Incorporate an AI for pleyer to play against computer.",
+    "description": "The Exploding Kitten is an online version of popular card game 'Exploding Kitten'.",
+    "duration": "1 week",
+    "devTool" : [
+      "jQuery"
+    ],
+    "markdown" : "the-exploding-kitten.md"
+  },
+  {
+    "name": "Kakis",
+     "repoName": "https://github.com/yisheng90/Kakis",
+     "deployedUrl": "https://kakis.herokuapp.com",
+     "previewImage": "http://i.imgur.com/kC9VHIx.jpg",
+     "scope": "Create a sport meetup app to gather sport buddy.",
+     "description": "Kakis is a social web application allowing sport enthusiast to find sport buddies who share the similar interest. ",
+     "duration": "1 week",
+     "devTool" : [
+       "Nodejs",
+       "Express",
+       "Socket.io",
+       "MongoDB",
+       "Mongoose",
+       "Bootstrap",
+       "Google MAp API"
+     ],
+     "markdown" : "kakis.md"
+   },
+  {
+     "name": "Handy",
+     "repoName": "https://github.com/yisheng90/third-project",
+     "deployedUrl": "https://floating-retreat-48742.herokuapp.com/",
+     "previewImage": "http://i.imgur.com/LJqK81o.jpg",
+     "scope": "Create an online version of card game 'Exploding Kitten'. Incorporate an AI for pleyer to play against computer.",
+     "description": "Handy is a web application to connect client with the handyman based on region and skills.",
+     "duration": "1 week",
+     "devTool" : [
+       "Ruby On Rails",
+       "IceCube",
+       "Action Cable",
+       "Google Map API",
+       "Postgrest"
+     ],
+     "markdown" : "handy.md",
+     "collaborators": ["cavacado", "AndrewThian", "sharona1610"]
+   }
+]
