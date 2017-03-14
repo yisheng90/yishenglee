@@ -1,6 +1,8 @@
 
+<br>
+<br>
 <div class='text-center'>
-  <img src='http://i.giphy.com/7VIrrel4MWJGM.gif' />
+  <Image src='http://i.giphy.com/7VIrrel4MWJGM.gif' width='80%'/>
 </div>
 <br>
 
@@ -21,7 +23,7 @@ There are several magic cards that help player to avoid getting the exploding ki
 
 
 <div class='text-center'>
-  <img src='http://i.imgur.com/B6WWq9H.png' />
+  <Image src='http://i.imgur.com/B6WWq9H.png' width='80%' />
 </div>
 
 ****
@@ -40,13 +42,14 @@ With probabilistic decision tree model, each card is assigned with a score based
 
 ##### **The Graphic**
 <div class='text-center'>
-<img src='http://i.imgur.com/xX4Dbdu.png'' />
+<img src='http://i.imgur.com/xX4Dbdu.png' width='80%' />
 </div>
 
 
 <br>
 <br>
 <div class='text-center'>
-  <img src='http://i.imgur.com/Cnkc8nT.png'  style="width:200px"/>
+  <Image src='http://i.imgur.com/Cnkc8nT.png'  style="width:200px"/>
 </div>
 <br>
+</Grid.Column>

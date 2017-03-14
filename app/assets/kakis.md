@@ -1,8 +1,10 @@
-
+<br>
+<br>
 <div class='text-center'>
-  <img src='http://i.imgur.com/kC9VHIx.jpg' style='width:100%' />
-  <strong>Find your strength, find your passion, find your kakis</strong>
+  <Image src='http://i.imgur.com/kC9VHIx.jpg' width='80%'/>
+
 </div>
+<strong>Find your strength, find your passion, find your kakis</strong>
 
 <br>
 <br>
@@ -24,7 +26,7 @@
 
 ##### **Database Model**
 <div class='text-center'>
-  <img src='http://i.imgur.com/mNH2oSt.png' />
+  <Image src='http://i.imgur.com/mNH2oSt.png' width='80%'/>
 </div>
 
 
@@ -53,34 +55,34 @@ The UI design philosophy:
 ###### **Homepage**
 <hr>
 <div class='text-center'>
-  <img src='http://i.imgur.com/N6sN2fb.jpg' style='width:100%'/>
+  <Image src='http://i.imgur.com/N6sN2fb.jpg' width='80%'/>
 </div>
 <br>
 
 ######  **Events**
   <hr>
 <div class='text-center'>
-  <img src='http://i.imgur.com/ldANNMy.png' style='width:100%' />
+  <Image src='http://i.imgur.com/ldANNMy.png' width='80%' />
 </div>
 <br>
 
 ######  **Event Page**
   <hr>
 <div class='text-center'>
-  <img src='http://i.imgur.com/IyXy52sr.png' style='width:100%' />
+  <Image src='http://i.imgur.com/IyXy52sr.png' width='80%' />
 </div>
 <br>
 
 ######  **User Profile**
   <hr>
 <div class='text-center'>
-  <img src='http://i.imgur.com/DyCLGgR.png' style='width:100%' />
+  <Image src='http://i.imgur.com/DyCLGgR.png' width='80%' />
 </div>
 <br>
 
 ######  **Chat**
   <hr>
 <div class='text-center'>
-  <img src='http://i.imgur.com/vORrGLv.png' style='width:100%' />
+  <Image src='http://i.imgur.com/vORrGLv.png' width='80%' />
 </div>
 <br>

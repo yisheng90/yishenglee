@@ -1,7 +1,84 @@
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+.brand {
+    font-family: 'Coustard', serif;
+}
+
+.title_header {
+  background-color: #fffb00
+}
+
+.left {
+  text-align: left;
+}
+
+.title {
+  font-family: 'Coustard', serif;
+  text-align: left;
+}
+
+.title_divider {
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    width: 18rem;
+    height: 5px;
+    background-color:#fffb00;
+}
+
+.header {
+  margin-top: 10vh;
+}
+
+.summary {
+  font-size: 20px;
+  text-align: left;
+}
+
+.resume_portal a {
+  color: grey;
+}
+
+.resume_portal a:hover {
+  color: #fffb00;
+  text-decoration: underline;
+  font-family: 'Coustard', serif;
+}
+
+.ui.grid>.column:not(.row){
+  padding: 0 40px;
+
+}
+
+#project_icon, #project_hover {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project_header {
+  height:35vh;
+
+}
+
+
+
+
 #app, .app {
 padding:0;
 
 }
+
+
 .grid {
   border:{1px solid grey};
 }
@@ -113,9 +190,7 @@ input, textarea {
   padding: 30px;
 }
 
-.summary {
-  font-size: 20px;
-}
+
 
 .border {
   border: 1px solid black;
@@ -168,7 +243,7 @@ input, textarea {
 }
 
 @media screen and (max-width: 780px) {
-  .brand {
+  img.ui.image {
     display:none;
   }
 

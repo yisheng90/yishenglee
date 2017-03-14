@@ -3,44 +3,76 @@ import React from 'react'
 import ProjectList from './ProjectList'
 import Technology from './Technology'
 import CV from '../assets/LeeYiSheng_cv.pdf'
+import _ from 'lodash'
+import { Grid, Image, Container, Icon} from 'semantic-ui-react'
 
 class Index extends React.Component {
   render () {
+    const columns = _.times(16, (i) => (
+      <Grid.Column key={i}>
+        Hello
+      </Grid.Column>
+))
+
     return (
-      <div>
-        <div className='row' style={{paddingTop: 50}}>
-          <img src='http://i.imgur.com/Y1RwbRO.jpg' className='col-md-3 col-md-offset-1  col-sm-4  image' />
-          <div className='col-md-5 col-sm-5'>
-            <div className='brand'>
-              <h3>Traveller | Volunteer | Sport Enthusiast</h3>
-              <br />
-              <div className='col-md-2'>
-              <h1>"</h1>
-              </div>
-              <div className='col-md-9 col-md-offset-1'>
-                <h4>I enjoy problem solving, and I hope to continue crafting innovative solutions to touch every life.</h4>
-              </div>
-              <div className='col-md-2 col-md-offset-10'>
-              <h1>"</h1>
-              </div>
-            </div>
-          </div>
-            <div className='col-lg-12 col-md-12 col-sm-12 yellow' >
+      <div className='header'>
+        <Grid stackable centered >
+          <Grid container stackable centered verticalAlign='middle' >
+            <Grid.Column width={6}>
+              <Image src='http://i.imgur.com/Y1RwbRO.jpg' className='photo' />
+            </Grid.Column>
+            <Grid.Column width={10} left aligned>
 
+              <h1 className='title'>Hello, I'm YiSheng</h1>
+              <h3 className='title'>Traveller | Volunteer | Sport Enthusiast</h3>
 
-          <div className='col-lg-7 col-md-8 col-md-offset-1 col-sm-9 summary text-justify'>
-            <p>Hello, I am <strong>Yi Sheng</strong> - a Singapore-based full-stack developer. I got introduced to coding through a friend, and I've never stopped since then. I wanted a career as a developer, so I went on to pick up a course at General Assembly, Singapore. I am now a junior full-stack developer fluent in JavaScript and Ruby, back-end frameworks such as Node.js, Rails, Express.js, and experienced modern front-end frameworks React.js and Socket.io.</p>
-
-            <p>If you are intrested to know more about me, you can see here my <a href={CV}><strong>Downloadable CV</strong></a>.</p>
-          </div>
+              <div className='resume_portal left'>
+                <a href='mailto:yisheng@yishenglee.com'><strong>yisheng@yishenglee.com</strong></a> |
+                    <a href={CV}><strong> resume</strong></a>
+                <br />
+                <a href='https://www.linkedin.com/in/yishenglee/'><Icon name='linkedin square' /></a>
+                <a href='https://medium.com/@yishenglee'> <Icon name='medium' /></a>
+                <a href='https://github.com/yisheng90'> <Icon name='github' /></a>
               </div>
-        </div>
-        <div />
+
+            </Grid.Column>
+          </Grid>
+          <Grid.Row className='title_header'>
+            <Grid stackable container>
+              <Grid.Column />
+              <Grid.Column width={12}>
+                <br />
+                <br />
+                <p className='summary'>
+                  I am a Singapore based full-stack developer with a passion in digital product development.
+                  I was formerly a process engineer in a local water treatment company. With the strong desire to improve myself,
+                  I started to learn coding full-time at <strong>General Assembly, Singapore </strong>
+                  3-months ago. I am currently the <strong>Teaching Assistance </strong>
+                  for the upcomming <strong>Web Developement Immersive</strong> in <strong> General Assembly, Singapore</strong>.
+                </p>
+
+                <br />
+                <p className='summary'>
+                    I hope to continue crafting innovative solutions to make the world a better place for everyone.
+                  </p>
+                <br />
+                <br />
+
+              </Grid.Column>
+            </Grid>
+
+          </Grid.Row>
+
+          <Grid.Row centered >
+            <a href='#projects'><Icon name='chevron down' /></a>
+          </Grid.Row>
+
+        </Grid>
+
         <ProjectList />
-        <div className='container-fluid'>
-          <Technology />
-        </div>
+
       </div>
+
     )
   }
 

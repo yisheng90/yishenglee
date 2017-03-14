@@ -1,3 +1,5 @@
+<br>
+<br>
 <div class='text-center'>
   <img src='http://i.imgur.com/LJqK81o.jpg' style='width:100%' />
 </div>

@@ -2,33 +2,35 @@
   { "name": "The Exploding Kitten",
     "repoName": "https://github.com/yisheng90/GA-Project-1-The-Exploding-Kitten-",
     "deployedUrl": "https://yisheng90.github.io/GA-Project-1-The-Exploding-Kitten-/",
-    "previewImage": "http://i.giphy.com/7VIrrel4MWJGM.gif",
+    "previewImage": "http://i.imgur.com/ff0efpD.jpg",
     "scope": "Create an online version of card game 'Exploding Kitten'. Incorporate an AI for pleyer to play against computer.",
     "description": "The Exploding Kitten is an online version of popular card game 'Exploding Kitten'.",
     "duration": "1 week",
     "devTool" : [
-      "jQuery"
+      "devicon-jquery-plain-wordmark",
+      "devicon-css3-plain",
+      "devicon-html5-plain-wordmark"
     ],
-    "markdown" : "the-exploding-kitten.md"
+    "markdown" : "the-exploding-kitten.md",
+    "background": "rgba(205,170,125, 0.7)"
   },
   {
     "name": "Kakis",
      "repoName": "https://github.com/yisheng90/Kakis",
      "deployedUrl": "https://kakis.herokuapp.com",
-     "previewImage": "http://i.imgur.com/kC9VHIx.jpg",
+     "previewImage": "http://i.imgur.com/6iPKAG0.jpg",
      "scope": "Create a sport meetup app to gather sport buddy.",
      "description": "Kakis is a social web application allowing sport enthusiast to find sport buddies who share the similar interest. ",
      "duration": "1 week",
      "devTool" : [
-       "Nodejs",
-       "Express",
-       "Socket.io",
-       "MongoDB",
-       "Mongoose",
-       "Bootstrap",
-       "Google MAp API"
+       "devicon-nodejs-plain",
+       "devicon-mongodb-plain-wordmark",
+       "devicon-bootstrap-plain-wordmark",
+       "devicon-sass-original",
+       "devicon-html5-plain-wordmark"
      ],
-     "markdown" : "kakis.md"
+     "markdown" : "kakis.md",
+     "background": "rgb(144, 164, 174)"
    },
   {
      "name": "Handy",
@@ -39,13 +41,14 @@
      "description": "Handy is a web application to connect client with the handyman based on region and skills.",
      "duration": "1 week",
      "devTool" : [
-       "Ruby On Rails",
-       "IceCube",
-       "Action Cable",
-       "Google Map API",
-       "Postgrest"
+       "devicon-rails-plain-wordmark",
+       "devicon-postgresql-plain-wordmark",
+       "devicon-bootstrap-plain-wordmark",
+       "devicon-sass-original",
+       "devicon-html5-plain-wordmark"
      ],
      "markdown" : "handy.md",
-     "collaborators": ["cavacado", "AndrewThian", "sharona1610"]
+     "collaborators": ["cavacado", "AndrewThian", "sharona1610"],
+     "background": "rgb(77, 208, 225)"
    }
 ]

@@ -4,13 +4,11 @@ class DevelopmentTool extends React.Component {
   render () {
     let tools = this.props.tools.map((tool) => {
       return (
-        <span className='label label-primary margin-right'>
-          {tool}
-        </span>
+        <i className={tool} style={{color: this.props.color, margin: 1}} />
       )
     })
     return (
-      <div className='technologies'>
+      <div>
         {tools}
       </div>
     )

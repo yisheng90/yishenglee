@@ -1,6 +1,8 @@
 import React from 'react'
 import Projects from '../assets/project.json'
+import DevelopmentTool from './DevelopmentTool'
 import { Link } from 'react-router'
+import { Grid, Image, Container, Icon, Button} from 'semantic-ui-react'
 
 class ProjectList extends React.Component {
   constructor (props) {
@@ -21,40 +23,35 @@ class ProjectList extends React.Component {
     })
   }
   render () {
-    let projectList = Projects.map((project) => {
-      let image = {
-        backgroundImage: 'url(' + project.previewImage + ')'
+    let projects = Projects.map((project) => {
+      let styles = {backgroundImage: 'url(' + project.previewImage + ')', height: 200, backgroundSize:'cover', backgroundPosition:'center', margin: '20px'}
+      let hover = {backgroundColor: 'black'}
+      let info = false
+      if (this.state.hoverItem === project) {
+        hover['opacity'] = '0.8'
+        info = true
       }
 
-      if (this.state.hoverItem && project.name === this.state.hoverItem.name) {
-        return (
+      return (
+        <Grid.Column onMouseOver={(e, item) => this.handleMouseOver(e, project)} style={styles}>
 
-          <div className='col-lg-5 col-lg-offset-1 col-md-6' style={{padding: '20px 20px'}}>
-            <Link to={project.name}>
-              <div className='col-lg-12 col-md-12 image-wrapper' onMouseOver={(e, item) => this.handleMouseOver(e, project)} onMouseOut={(e, item) => this.handleMouseOut(e, project)}style={image} >
-                <div className='text-center image-hover'>
-                  <h1 className='col-md-12'>{project.name}</h1>
-                  <p>{project.description}</p>
-                </div>
-              </div>
-            </Link>
-          </div>
+          {info &&
+            <div id='project_hover' style={hover} />}
+          {info && <div id='project_icon' >
+            <Link to={'/' + project.name}> <Button inverted basic>{project.name}</Button></Link>
+            <DevelopmentTool tools={project.devTool} color='white'/>
+            </div>
+          }
 
-        )
-      } else {
-        return (
-          <div className='col-lg-5  col-lg-offset-1 col-md-6' style={{padding: '20px 20px'}}>
-            <div className='col-lg-12 col-md-12 image-wrapper' onMouseOver={(e, item) => this.handleMouseOver(e, project)} style={image} />
-          </div>
-        )
-      }
+        </Grid.Column>
+
+      )
     })
     return (
-      <div className='container-fluid grey'>
-        <div className='col-lg-10 col-md-9 col-sm-8'>
-          {projectList}
-        </div>
-      </div>
+      <Grid container stackable columns={1} className='header' >
+
+        {projects}
+      </Grid>
 
     )
   }
