@@ -48,7 +48,7 @@ class Index extends React.Component {
                   I was formerly a process engineer in a local water treatment company. With the strong desire to improve myself,
                   I started to learn coding full-time at <strong>General Assembly, Singapore </strong>
                   3-months ago. I am currently the <strong>Teaching Assistance </strong>
-                  for the upcomming <strong>Web Developement Immersive</strong> in <strong> General Assembly, Singapore</strong>.
+                  for the upcoming <strong>Web Development Immersive</strong> in <strong> General Assembly, Singapore</strong>.
                 </p>
 
                 <br />
