@@ -32039,11 +32039,11 @@ class Index extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                   null,
                   'Teaching Assistance '
                 ),
-                'for the upcomming ',
+                'for the upcoming ',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'strong',
                   null,
-                  'Web Developement Immersive'
+                  'Web Development Immersive'
                 ),
                 ' in ',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -32139,7 +32139,7 @@ var map = {
 	"./kakis.md": 725,
 	"./project": 334,
 	"./project.json": 334,
-	"./stylesheet/stylesheet.css": 726,
+	"./stylesheets/stylesheet.css": 726,
 	"./the-exploding-kitten.md": 727
 };
 function webpackContext(req) {
