@@ -32027,25 +32027,25 @@ class Index extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'p',
                 { className: 'summary' },
-                'I am a Singapore based full-stack developer with a passion in digital product development. I was formerly a process engineer in a local water treatment company. With the strong desire to improve myself, I started to learn coding full-time at ',
+                'I am a Singapore based full-stack developer with a passion for digital product development. I was formerly a process engineer in a local water treatment company. With the strong desire to improve myself, I started to learn coding full-time at ',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'strong',
                   null,
                   'General Assembly, Singapore '
                 ),
-                '3-months ago. I am currently the ',
+                '3 months ago. I am currently a ',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'strong',
                   null,
-                  'Teaching Assistance '
+                  'Teaching Assistant '
                 ),
-                'for the upcoming ',
+                'for the ongoing ',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'strong',
                   null,
                   'Web Development Immersive'
                 ),
-                ' in ',
+                ' course at ',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'strong',
                   null,

@@ -44,11 +44,11 @@ class Index extends React.Component {
                 <br />
                 <br />
                 <p className='summary'>
-                  I am a Singapore based full-stack developer with a passion in digital product development.
+                  I am a Singapore based full-stack developer with a passion for digital product development.
                   I was formerly a process engineer in a local water treatment company. With the strong desire to improve myself,
                   I started to learn coding full-time at <strong>General Assembly, Singapore </strong>
-                  3-months ago. I am currently the <strong>Teaching Assistance </strong>
-                  for the upcoming <strong>Web Development Immersive</strong> in <strong> General Assembly, Singapore</strong>.
+                  3 months ago. I am currently a <strong>Teaching Assistant </strong>
+                  for the ongoing <strong>Web Development Immersive</strong> course at <strong> General Assembly, Singapore</strong>.
                 </p>
 
                 <br />
